@@ -39,7 +39,7 @@
 
 
 
-<style>
+<style lang="scss" >
  input {
     width: 600px;
     height: 45px;
