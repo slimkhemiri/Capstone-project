@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 import axios from "axios"
 Vue.use(Vuex)
 const token = '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'
-
+////
 export  const store = new Vuex.Store({
     state: {
         style : []
