@@ -10,7 +10,7 @@
             
            
               type="text"
-              class="px-4 py-2 w-580 border-red-900"
+              class="px-4 py-2 w-94 border-red-900"
               placeholder="HAVE A QUESTION? SEARCH FOR ANSWERS..."
             />
             <button class="flex items-center justify-center px-4 border-l border-red-900">
@@ -46,6 +46,6 @@
 <style>
 input {
   width: 1380px;
-  height: 75px;
+
 }
 </style>

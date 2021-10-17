@@ -90,8 +90,19 @@
 <br/>
 <br/>
 <br/>
-
-
+ <!-- <div v-for="product in store.products" v-bind:key="product.id">
+      <div>{{ product[0].question_body }}</div>  -->
+<!-- </div> -->
         </div>
   </div>
 </template>
+<script>
+// import {inject} from 'vue';
+
+// export default {
+//     setup(){
+//         const store = inject('store')
+//         return store
+//     }
+// }
+</script>
