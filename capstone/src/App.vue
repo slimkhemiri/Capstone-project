@@ -1,30 +1,78 @@
-<template>
-  <div id="app">
-<QandA></QandA>
-  </div>
-
-
-</template>
-
-
 <script>
-import QandA from './components/Q&A.vue'
+import QandA from "./components/Q&A.vue";
+import searchBar from "./components/Search.vue";
+import moreAnswers from "./components/moreAnswers.vue";
+import Rate from "./components/rate.vue";
+import HorizontalListRelated from "./components/HorizontalListRelated.vue";
+import HorizontalListYourOutfit from "./components/HorizontalListYourOutfit.vue";
+import Style from "./components/Circle.vue";
+import Tiltle from "./components/Tiltle.vue";
+import NavBar from "./components/navbar.vue";
+import Caroussel from "./components/caroussel.vue";
+import RatingF from "./components/RatingF.vue";
+import Product from "./components/ProducetPrice.vue";
+import Select from "./components/Select.vue";
+import Add from "./components/Add.vue";
 export default {
-  name: 'App',
-  components:{
-     'QandA':QandA,
-  }
-}
-
+  components: {
+    QandA: QandA,
+    searchBar: searchBar,
+    moreAnswers: moreAnswers,
+    Rate: Rate,
+    HorizontalListRelated: HorizontalListRelated,
+    HorizontalListYourOutfit: HorizontalListYourOutfit,
+    NavBar,
+    Tiltle,
+    Caroussel,
+    RatingF,
+    Product,
+    Style,
+    Select,
+    Add,
+  },
+  computed: {
+    products() {
+      return this.$store.getters.products;
+    },
+  },
+  created() {
+    this.$store.dispatch("loadProducts");
+  },
+};
 </script>
+<template>
+  <div id="app" class=" container-center ">
+    <div>
+      <div>
+        <NavBar />
 
-<style>
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-</style>
+        <Tiltle />
+
+        <div class="grid grid-rows-4 grid-flow-col gap-4 mx-20 heightt margin">
+          <Caroussel />
+          <RatingF />
+          <Product />
+          <div class="row-span-1 w-96 col-span-1  h -mt-16 ">
+            <div class="ml-4">STYLE > SLECTED STYLE</div>
+            <Style />
+          </div>
+
+          <div class="row-span-1 col-span-1  float-left het">
+            <Select />
+
+            <div class="row-span-1 col-span-1  mt-2 heet ">
+              <Add />
+            </div>
+          </div>
+        </div>
+      </div>
+      <HorizontalListRelated />
+
+      <HorizontalListYourOutfit />
+      <searchBar />
+      <QandA />
+      <moreAnswers />
+      <Rate />
+    </div>
+  </div>
+</template>

@@ -1,5 +1,5 @@
 <template>
-     <div class="col-span-1  htt">
+     <div class="col-span-1  htt container mx-auto">
         <v-rating
           class="float-left mt-6"
           v-model="rating"
