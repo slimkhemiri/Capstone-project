@@ -1,12 +1,13 @@
 <template >
-<div class="container mx-auto text-left">
+<div class="container mx-auto">
+   <div class=" text-2xl ">YOUR OUTFIT</div>
 <vue-horizontal-list
   :items="items"
   :options="{
     responsive: [
       { end: 300, size: 1 },
       { start: 150, end: 300, size: 2 },
-      { size: 4 },
+      { size: 6 },
     ],
   }"
 >
@@ -75,8 +76,7 @@
  <br/>
  <br/>
  <br/>
- <br/>
- <br/>
+
   </template>
 </vue-horizontal-list>
 

@@ -1,12 +1,13 @@
 <template >
-<div class="w-500 h-auto  mt-20" max-width ="50%">
+<div class="container mx-auto ">
+   <div class=" text-2xl ">RELATED PRODUCTS</div>
 <vue-horizontal-list
   :items="items"
   :options="{
     responsive: [
       { end: 200, size: 1 },
       { start: 150, end: 200, size:2 },
-      { size: 4 },
+      { size: 6 },
     ],
   }"
 >
@@ -38,7 +39,7 @@
     <div class="my-0 text-subtitle-1">
        CATEGORY
       </div>
-    <v-card-title class="my-0 text-subtitle-2">Expanded Product</v-card-title>
+    <v-card-title class="text-subtitle-2 ">Expanded Product</v-card-title>
       <div class="ml-0 text-subtitle-0 ">$ 123 </div>
   <v-card-text>
       <v-row
@@ -62,8 +63,7 @@
   </v-card>
  <br/>
  <br/>
- <br/>
- <br/>
+
     </div>
   </template>
   
