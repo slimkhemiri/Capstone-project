@@ -1,6 +1,6 @@
 <template>
     
-    <div class="container  mx-auto row-span-6 col-span-5 bg-gray-100 ps ">
+    <div class="row-span-6 col-span-5 bg-gray-100 ps">
 
           <div class="bg-red-500 cong">
               <v-carousel hide-delimiters>

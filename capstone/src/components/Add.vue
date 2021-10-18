@@ -73,6 +73,7 @@ export default {
    border: 1px solid black;
    width: 100%; 
    border-radius: 5px;
+   height: 100%;
 }
 .wAdd{
     width: 280px;

@@ -1,5 +1,5 @@
 <template>
-        <div class="container mx-auto grid grid-rows-6 min-h-screen mx-20 margin1">
+        <div class="grid grid-rows-6 min-h-screen mx-20 margin1">
       <div class="row-span-1 text-center -mt-8 h-8 color">
         SITE-WIDE ANNOUNCEMENT MESSAGE! -- SALE / DICOUNT
         <span class="font-bold cl"> OFFER </span> --<span class="underline">
