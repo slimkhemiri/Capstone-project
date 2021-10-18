@@ -76,3 +76,54 @@ export default {
     </div>
   </div>
 </template>
+<style lang="scss">
+.het {
+  height: 80px;
+  width: 80%  ;
+}
+.heet {
+  height: 80px;
+  width: 390px;
+
+}
+
+.margin {
+  margin-top: -48%;
+}
+
+.height {
+  height: 70%;
+  background-color: dimgrey;
+}
+.mt {
+  margin-top: 80px;
+}
+
+.clr {
+  color: white;
+  font-size: medium;
+}
+.btn {
+  border-top: none;
+  border-bottom: 2px solid white;
+  width: 150px;
+}
+
+.h {
+  height: 190px;
+}
+.heightt {
+  height: 590px;
+  width: 95% !important;
+}
+.cnt {
+  width: 700px;
+  height: 450px;
+  background-color: black;
+  margin: 25px;
+  position: absolute;
+}
+.imag {
+  width: 750px;
+}
+</style>

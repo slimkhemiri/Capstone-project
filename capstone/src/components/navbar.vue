@@ -1,6 +1,5 @@
 <template>
-<div class="container mx-auto ">
-   <div class="container mx-auto grid grid-rows-6 min-h-screen mx-20">
+   <div class="grid grid-rows-6 min-h-screen mx-20">
       <div class="row-span-1 height">
         <div class="row-span-2 w-3/6 float-right">
           <div class="float-right mt-10 mr-7">
@@ -16,9 +15,7 @@
         <div></div>
       </div>
     </div>
-    </div>
   </template>
-
 
 
 
