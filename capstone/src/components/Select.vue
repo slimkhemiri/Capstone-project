@@ -1,5 +1,5 @@
 <template>
-<div class="container mx-auto">
+<div>
   
       
           <div class="grid grid-flow-row ">
@@ -29,6 +29,7 @@
 </div>
 
 </template>
+
 
 
 
