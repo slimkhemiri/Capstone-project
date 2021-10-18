@@ -1,5 +1,5 @@
 <template>
-     <div class="col-span-1  htt">
+     <div class="flex ">
         <v-rating
           class="float-left mt-6"
           v-model="rating"
@@ -7,11 +7,14 @@
           color="orange"
           small
         ></v-rating>
-        <div class="float-left mt-6">
-          <a href="#" class="underline"> Read all reviews</a>
-        </div>
-        <div class="mar">CATEGORY</div>
-      </div>
+         <a href="#" class="underline mt-12"> Read all reviews</a>
+           <div class="absolute right mt-16">CATEGORY</div>
+          </div>
+        
+        
+       
+        
+     
 
 </template>
 
@@ -28,14 +31,14 @@ export default {
 
 </script>
 
-<style lang="scss">
-.mar {
-  margin-top: 59px;
-  margin-left: 10px;
-}
-.htt {
-  height: 80px;
-}
+// <style lang="scss">
+// .mar {
+//   margin-top: 59px;
+//   margin-left: 10px;
+// }
+// .htt {
+//   height: 80px;
+// }
 
 
-</style>
+// </style>

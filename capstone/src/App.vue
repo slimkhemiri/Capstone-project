@@ -48,7 +48,7 @@ export default {
 
         <Tiltle />
 
-        <div class="grid grid-rows-4 grid-flow-col gap-4 mx-20 heightt margin">
+        <div class="grid grid-rows-4 grid-flow-col gap-4 mx-12  heightt margin">
           <Caroussel />
           <RatingF />
           <Product />
@@ -114,7 +114,7 @@ export default {
 }
 .heightt {
   height: 590px;
-  width: 95% !important;
+  width: 95%;
 }
 .cnt {
   width: 700px;
